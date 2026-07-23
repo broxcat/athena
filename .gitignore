@@ -1,0 +1,29 @@
+# --- Secrets et configuration locale ---
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# --- Certificats et clés privées ---
+certs/
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+
+# --- Docker / volumes / données locales ---
+volumes/
+data/
+*.log
+
+# --- OS / éditeurs ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Divers ---
+*.bak
+*.swp
+node_modules/
